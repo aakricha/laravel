@@ -23,7 +23,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        \Debugbar::info(getallheaders());
         return view('home');
     }
 }
